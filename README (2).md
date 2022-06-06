@@ -5,7 +5,7 @@ A basic text editor with features such as bold,italics,underline,superscript and
 
 
 
-## Screenshots
+
 
 ## Screenshots
 
