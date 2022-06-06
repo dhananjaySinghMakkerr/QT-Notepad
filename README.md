@@ -23,4 +23,4 @@ A basic text editor with features such as bold,italics,underline,superscript and
 
 ## Installation
 
-Just copy all the files and run the .exe file and the application should start working
+Just copy all the files from the release directory and run the .exe file and the application should start working
