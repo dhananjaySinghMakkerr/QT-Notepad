@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>857</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>About Developer</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>857</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionDefault"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionCopy"/>
+    <addaction name="separator"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <widget class="QMenu" name="menuFont">
+    <property name="title">
+     <string>Font</string>
+    </property>
+    <addaction name="actionBold"/>
+    <addaction name="actionItalicize"/>
+    <addaction name="actionUnderline"/>
+    <addaction name="actionFont_Family"/>
+    <addaction name="actionSuperscript"/>
+    <addaction name="actionSubscript"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuFont"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="separator"/>
+   <addaction name="actionDefault"/>
+   <addaction name="actionOpen"/>
+   <addaction name="separator"/>
+   <addaction name="actionCut"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionPaste"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionSave_As"/>
+   <addaction name="separator"/>
+   <addaction name="actionFont_Family"/>
+   <addaction name="actionBold"/>
+   <addaction name="actionItalicize"/>
+   <addaction name="actionUnderline"/>
+   <addaction name="actionSuperscript"/>
+   <addaction name="actionSubscript"/>
+  </widget>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/new-document.png</normaloff>:/Images/new-document.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-opened-folder-48.png</normaloff>:/Images/icons8-opened-folder-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/diskette.png</normaloff>:/Images/diskette.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-save-as-64.png</normaloff>:/Images/icons8-save-as-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As</string>
+   </property>
+  </action>
+  <action name="actionDefault">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/template.png</normaloff>:/Images/template.png</iconset>
+   </property>
+   <property name="text">
+    <string>Default</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/cut.png</normaloff>:/Images/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/files.png</normaloff>:/Images/files.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/undo-circular-arrow.png</normaloff>:/Images/undo-circular-arrow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/redo-arrow-symbol.png</normaloff>:/Images/redo-arrow-symbol.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/paste (1).png</normaloff>:/Images/paste (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-bold-50.png</normaloff>:/Images/icons8-bold-50.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionItalicize">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-formatting-32.png</normaloff>:/Images/icons8-formatting-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Italicize</string>
+   </property>
+  </action>
+  <action name="actionUnderline">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-underline-50.png</normaloff>:/Images/icons8-underline-50.png</iconset>
+   </property>
+   <property name="text">
+    <string>Underline</string>
+   </property>
+  </action>
+  <action name="actionFont_Family">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-font-64.png</normaloff>:/Images/icons8-font-64.png</iconset>
+   </property>
+   <property name="text">
+    <string>Font Family</string>
+   </property>
+  </action>
+  <action name="actionSuperscript">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-superscript-100.png</normaloff>:/Images/icons8-superscript-100.png</iconset>
+   </property>
+   <property name="text">
+    <string>Superscript</string>
+   </property>
+   <property name="shortcut">
+    <string>Up</string>
+   </property>
+  </action>
+  <action name="actionSubscript">
+   <property name="icon">
+    <iconset resource="AppResources.qrc">
+     <normaloff>:/Images/icons8-subscript-48.png</normaloff>:/Images/icons8-subscript-48.png</iconset>
+   </property>
+   <property name="text">
+    <string>Subscript</string>
+   </property>
+   <property name="shortcut">
+    <string>Down</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="AppResources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

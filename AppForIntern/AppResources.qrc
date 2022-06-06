@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>template.png</file>
+        <file>redo-arrow-symbol.png</file>
+        <file>undo-circular-arrow.png</file>
+        <file>files.png</file>
+        <file>scissors.png</file>
+        <file>paste.png</file>
+        <file>new-document.png</file>
+        <file>icons8-save-as-64.png</file>
+        <file>diskette.png</file>
+        <file>paste (1).png</file>
+        <file>cut.png</file>
+        <file>icons8-font-64.png</file>
+        <file>icons8-underline-50.png</file>
+        <file>icons8-formatting-32.png</file>
+        <file>icons8-bold-50.png</file>
+        <file>icons8-opened-folder-48.png</file>
+        <file>icons8-subscript-48.png</file>
+        <file>icons8-superscript-100.png</file>
+        <file>tgh.jpg</file>
+        <file>efg.jpg</file>
+    </qresource>
+</RCC>
