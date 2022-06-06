@@ -11,7 +11,7 @@ A basic text editor with features such as bold,italics,underline,superscript and
 
 1)Various features in the editor--
 
-![App Screenshot](<p><img src="/Outputs/op4.png" width="400px" height="200px"/></p>)
+<p><img src="/Outputs/op4.png" width="400px" height="400px"/></p>
 
 2)The superscript & supercript feature:-
 
