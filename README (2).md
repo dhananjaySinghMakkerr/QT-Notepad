@@ -11,12 +11,12 @@ A basic text editor with features such as bold,italics,underline,superscript and
 
 1)Various features in the editor--
 
-<p><img src="/Outputs/op4.png" width="500px" height="400px"/></p>
+<p><img src="/Outputs/op4.png" width="800px" height="600px"/></p>
 
 2)The superscript & supercript feature:-
 
-<p><img src="/Outputs/op3.png" width="500px" height="400px"/></p>
+<p><img src="/Outputs/op3.png" width="800px" height="600px"/></p>
 
 3)The About Me Section
 
-<p><img src="/Outputs/op2.png" width="500px" height="400px"/></p>
+<p><img src="/Outputs/op2.png" width="800px" height="600px"/></p>
